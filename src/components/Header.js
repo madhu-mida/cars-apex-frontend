@@ -13,19 +13,18 @@ const Header = () => {
                             <span id="top-header-content-slogan">Find Your Own Road</span>
                         </Link>
 
-                        <div>
-                            <div style={{ float: 'right' }}>
-                                <Link to='/new' style={{ color: 'black' }}>
-                                    <Button variant="primary" type="submit" style={{
-                                        margin: 'auto', background: 'white', color: 'black', float: 'right', border: 'black'
-                                    }} >
-                                        Add New Car
-                                    </Button>
-                                </Link>
-                            </div>
+                    </div>
+                    <div>
+                        <div style={{ float: 'right' }}>
+                            <Link to='/new' style={{ color: 'black' }}>
+                                <Button variant="primary" type="submit" style={{
+                                    margin: 'auto', background: 'white', color: 'black', float: 'right', border: 'black'
+                                }} >
+                                    Add New Car
+                                </Button>
+                            </Link>
                         </div>
                     </div>
-
                 </div>
 
 

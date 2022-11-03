@@ -24,7 +24,7 @@ Cars is a full CRUD Web application that stores and handles details of cars usin
 
 ### As a user, I want to:
 * see cars displayed on a home page.
-* click on an item and view information about that item.
+* click on a car and view information about the car.
 * add new car details.
 * see created car details on the home page.
 * edit car details
@@ -44,6 +44,12 @@ Cars is a full CRUD Web application that stores and handles details of cars usin
 | Delete | /cars/:id | DELETE | Delete car details
 
 
+## Test Cases
+
+To validate details in the following components.
+* CardComponent
+* DetailsTable
+
 ## Technologies Used
 
 ### Backend
@@ -61,7 +67,6 @@ Heroku
 ReactJS
 JaveScript
 HTML5
-React Icons
 CSS
 Bootstrap
 Netlify

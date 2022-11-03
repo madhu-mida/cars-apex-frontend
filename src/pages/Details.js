@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import DetailsTable from "../components/DetailsTable";
+import Button from 'react-bootstrap/Button';
 const Details = () => {
 
     const URL = "https://ms-95-cars-backend-apex.herokuapp.com/cars/";
@@ -33,7 +34,7 @@ const Details = () => {
     return (
         <>
             {carDetail && carDetail[0] && <Row className="car-detail">
-                <Col>
+                <Col md={6}>
                     <div>
                         <img style={{
                             height: '409px',
@@ -51,12 +52,20 @@ const Details = () => {
                         <Col>
                             <Link style={{ color: 'black', fontStyle: 'italic' }}
                                 onClick={handleDelete}>
-                                Delete
+                                <Button variant="primary" type="submit" style={{
+                                    alignItems: 'center', margin: 'auto', background: 'black', border: 'black'
+                                }} >
+                                    Delete
+                                </Button>
                             </Link>
                         </Col>
                         <Col>
                             <Link to={`/update/${carDetail[0].carId}`} style={{ color: 'black', fontStyle: 'italic', float: 'right' }}>
-                                Edit
+                                <Button variant="primary" type="submit" style={{
+                                    alignItems: 'center', margin: 'auto', background: 'black', width: '70px', border: 'black'
+                                }} >
+                                    Edit
+                                </Button>
                             </Link>
                         </Col>
                     </Row>

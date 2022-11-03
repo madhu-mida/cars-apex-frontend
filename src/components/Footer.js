@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <div id='footer'>
-            <p>All Rights Reserved, © 2022 Cars  </p>
+            <p style={{ margin: 'auto' }}>All Rights Reserved, © 2022 Cars  </p>
         </div>
     );
 }

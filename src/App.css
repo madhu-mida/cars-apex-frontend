@@ -70,10 +70,12 @@ body {
 
 .home-page {
   padding: 65px;
+  min-height: 86vh;
 }
 
 .car-detail {
   padding: 40px;
+  min-height: 83vh;
 }
 
 .form-label {

@@ -2,6 +2,10 @@ import { render, screen, cleanup } from "@testing-library/react"
 import CardComponent from "../CardComponent";
 import { BrowserRouter as Router } from 'react-router-dom';
 import DetailsTable from "../DetailsTable";
+
+afterEach(() => {
+    cleanup()
+})
 const car = {
     "make": "Ford", "model": "F10", "package": "Base", "color": "Silver", "year": 2010, "category": "Truck", "mileage": 120123, "price": 1999900, "carId": "JHk290Xj", "img": "https://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/f-150lightning/2022/collections/_360/atlas-blue-metallic/p702bevplt_22_atlasbluemetallic_1.jpg"
 }
