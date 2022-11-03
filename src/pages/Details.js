@@ -32,14 +32,15 @@ const Details = () => {
         getCarDetail()
     }, [])
     return (
-        <>
+        <div>
             {carDetail && carDetail[0] && <Row className="car-detail">
                 <Col md={6}>
                     <div>
                         <img style={{
-                            height: '409px',
+                            height: '450px',
                             width: '100%',
-                            padding: '10px'
+                            padding: '10px',
+                            borderRadius: '14px'
                         }} src={carDetail[0].img} />
                     </div>
                 </Col>
@@ -70,17 +71,19 @@ const Details = () => {
                         </Col>
                     </Row>
                 </Col>
+                <Col sm={12}>
+                    <div style={{ textAlign: 'center' }}>
+                        <Link to='/' style={{ color: 'black', fontWeight: 'bold' }}>
+                            Back to Home Page
+                        </Link>
 
+                    </div>
+                </Col>
             </Row>}
 
-            <div style={{ textAlign: 'center' }}>
-                <Link to='/' style={{ color: 'black', fontStyle: 'italic' }}>
-                    Back to Home Page
-                </Link>
 
-            </div>
 
-        </>
+        </div>
     );
 }
 
