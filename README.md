@@ -27,6 +27,8 @@ Cars is a full CRUD Web application that stores and handles details of cars usin
 * click on an item and view information about that item.
 * add new car details.
 * see created car details on the home page.
+* edit car details
+* delete car details
 
 ---
 
