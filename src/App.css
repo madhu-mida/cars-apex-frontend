@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Bitter:wght@500&family=Comforter&family=Cormorant:wght@300&family=Crimson+Text&family=Fredoka+One&family=Lato:wght@300&family=Londrina+Shadow&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Padauk&family=Permanent+Marker&family=Questrial&family=Radio+Canada&family=Roboto+Flex:opsz,wght@8..144,200&family=Source+Serif+Pro&family=Stylish&family=Supermercado+One&family=Ubuntu&display=swap');
+
+@font-face {
+  font-family: "whitney";
+  src: local("whitney"),
+    url("./fonts/whitneymedium.otf") format("truetype");
+  font-weight: normal;
+}
+
+.App {
+ 
+  height: 100vh;
+}
+
+body {
+  font-family: 'whitney', serif !important;
+  letter-spacing: 0.1em;
+  
+}
+#top-header {
+  height: 65px;
+  width: 100%;
+  background-color: #546e7a !important;
+  color: white;
+  text-align: center;
+  font-family: serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-header-contents {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+}
+
+#top-header-content-slogan {
+  margin: auto;
+}
+
+
+#header {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 74px;
+}
+
+
+#footer {
+  height: 65px;
+  width: 100%;
+  background-color: #546e7a !important;
+  font-size: 13px !important;
+  font-style: italic;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page {
+  padding: 65px;
+}
+
+.car-detail {
+  padding: 40px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-submit-button {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}

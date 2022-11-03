@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Cars
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Travelog is a full CRUD Web application that stores and handles details of cars using React, Express and MongoDB.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Screenshots
 
-### `npm start`
+### Home Screen
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot](home.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Detail Screen
 
-### `npm test`
+![Screenshot](detail.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Create Screen
 
-### `npm run build`
+![Screenshot](New.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## User Stories
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### As a user, I want to:
+* see cars displayed on a home page.
+* click on an item and view information about that item.
+* add new car details.
+* see created car details on the home page.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Routes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Name | Path | HTTP Verb | Purpose |
+|--------|-----|--------|-----|
+| Home | /cars | GET | Show all cars
+| Detail | /cars/:id | GET | Show car details
+| Create | /cars | POST | Create new car details
+| Edit | /cars/:id | PUT | Update car details
+| Delete | /cars/:id | DELETE | Delete car details
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MongoDB
+express
+mongoose
+dotenv
+morgan
+node
+Heroku
 
-### Code Splitting
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ReactJS
+JaveScript
+HTML5
+React Icons
+CSS
+Bootstrap
+Netlify
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Getting Started
 
-### Making a Progressive Web App
+[Click Here](https://github.com/madhu-mida/cars-apex) to see Backend Repo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Click Here](https://ms-95-cars-backend-apex.herokuapp.com/cars/) to see deployed Heroku app.
 
-### Advanced Configuration
+[Click Here](https://magical-valkyrie-0976d2.netlify.app/) to see deployed Netlify app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add search, authentication, authorization features.
