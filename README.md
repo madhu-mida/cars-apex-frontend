@@ -79,7 +79,7 @@ Netlify
 
 [Click Here](https://ms-95-cars-backend-apex.herokuapp.com/cars/) to see deployed Heroku app.
 
-[Click Here](https://magical-valkyrie-0976d2.netlify.app/) to see deployed Netlify app.
+[Click Here](https://fancy-sprinkles-f06e0f.netlify.app/) to see deployed Netlify app.
 
 ---
 
