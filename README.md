@@ -1,6 +1,6 @@
 # Cars
 
-Travelog is a full CRUD Web application that stores and handles details of cars using React, Express and MongoDB.
+Cars is a full CRUD Web application that stores and handles details of cars using React, Express and MongoDB.
 
 ---
 
